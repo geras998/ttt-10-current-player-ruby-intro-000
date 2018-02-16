@@ -3,3 +3,7 @@ def turn_count(board)
   board.each { |pos| ocuppied += 1 if pos != " " }
   ocuppied
 end
+
+def current_player(board)
+  
+end
